@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import {useSelector} from "react-redux";
 import { useDispatch } from 'react-redux';
 import { authActions } from '../../store';
+import "./Navbar.css"; 
 
 const Navbar = () => {
   const isLoggedIn=useSelector((state)=>state.isLoggedIn);
