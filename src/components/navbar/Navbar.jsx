@@ -1,11 +1,11 @@
 import React from 'react';
 import { GiNotebook } from "react-icons/gi";
-import './Navbar.css';
+import './navbar.css';
 import { Link } from 'react-router-dom';
 import {useSelector} from "react-redux";
 import { useDispatch } from 'react-redux';
 import { authActions } from '../../store';
-import "./Navbar.css"; 
+
 
 const Navbar = () => {
   const isLoggedIn=useSelector((state)=>state.isLoggedIn);
